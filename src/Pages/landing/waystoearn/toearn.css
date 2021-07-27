@@ -1,0 +1,68 @@
+.waystoearn_slider{
+  background-color: white;
+}
+.waystoearn_head{
+  text-align: center;
+}
+.waystoearn_heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+.waystoearn_contents{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.waystoearn_content_one{
+  display: flex;
+  margin-top: 40px;
+  width: 40%;
+  padding: 30px 40px;
+  box-shadow: #dfdfdf 0px 3px 9px;
+  
+}
+
+
+.waystoearn_para_head{
+  margin-left: 25px;
+}
+.waystoearn_contents_heading{
+  margin-top: 0;
+  font-family: sans-serif;
+}
+.waystoearn_para_heading{
+  color: #AEA9A9;
+}
+.waystoearn_btn{
+  text-align: center;
+  margin-top: 61px;
+}
+
+.waystoearn_button{
+  font-size: 20px;
+  padding: 20px 60px;
+  background-color: #08AE9E;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+}
+
+@media (max-width:909px){
+  .waystoearn_content_one{
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+  }
+
+  .waystoearn_contents {
+    display: block;
+  }
+
+}

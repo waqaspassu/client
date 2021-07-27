@@ -1,0 +1,30 @@
+.review_slider{
+  background-color: white;
+  height: 400px;
+}
+
+.review_head{
+  text-align: center;
+}
+.review_heading{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.review_contants{
+  text-align: center;
+  margin-top: 54px;
+}
+.review_para{
+  margin: 10px;
+
+  color: #cccccc;
+}
+.review_radio_button{
+  text-align: center;
+}
+
+@media (max-width:500px){
+  .review_content_h4{
+    padding: 1rem;
+  }
+}
